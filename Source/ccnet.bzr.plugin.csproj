@@ -84,8 +84,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NetReflector">
-      <Name>NetReflector</Name>
-      <HintPath>..\..\lib\NetReflector.dll</HintPath>
+      <HintPath>ccnet_reference\NetReflector.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -96,13 +95,11 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
-    <Reference Include="ThoughtWorks.CruiseControl.Core, Version=1.5.7385.122, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>ccnet\webdashboard\bin\ThoughtWorks.CruiseControl.Core.dll</HintPath>
+    <Reference Include="ThoughtWorks.CruiseControl.Core">
+      <HintPath>ccnet_reference\ThoughtWorks.CruiseControl.Core.dll</HintPath>
     </Reference>
-    <Reference Include="ThoughtWorks.CruiseControl.Remote, Version=1.5.7385.122, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>ccnet\webdashboard\bin\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
+    <Reference Include="ThoughtWorks.CruiseControl.Remote">
+      <HintPath>ccnet_reference\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
