@@ -11,13 +11,13 @@ See the ccnet.config.sample file for an example of which fields you should add t
 
 ## Example
 
-<code>
+```xml
 <sourcecontrol type="bzr">
   <branchUrl>http://build/repo/myproject/trunk</branchUrl>
   <workingDirectory>/tmp</workingDirectory>
   <executable>bzr</executable>
 </sourcecontrol>
-</code>
+```
 
 ## Thanks
 Original project from Sandy Dunlop. https://code.launchpad.net/~sandy-dunlop/bazaar-ccnet/trunk
